@@ -1,9 +1,9 @@
-ValidationKey: '2128765'
+ValidationKey: '2148660'
 AutocreateReadme: yes
 AcceptedWarnings:
 - 'Warning: package ''.*'' was built under R version'
 - 'Warning: namespace ''.*'' is not available and has been replaced'
-- executable files
+- Found the following executable files
 AcceptedNotes: checking installed package size
 allowLinterWarnings: no
 AddInReadme: inst/README.md

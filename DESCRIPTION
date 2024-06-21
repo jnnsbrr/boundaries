@@ -1,6 +1,6 @@
 Package: boundaries
 Title: Planetary Boundary Status based on LPJmL simulations
-Version: 1.0.3
+Version: 1.0.4
 Authors@R: c(
     person("Johanna", "Braun", , "braun@pik-potsdam.de", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-8809-1044")),
     person("Jannes", "Breier", , "jannesbr@pik-potsdam.de", role = c("aut"), comment = c(ORCID = "0000-0002-9055-6904")),
@@ -60,72 +60,5 @@ Suggests:
 Remotes:
     github::stenzelf/biospheremetrics,
     github::yjunechoe/ggtrace
-BinaryFiles:
-    inst/extdata/output/lu_1500_2016/bnf_mg.bin
-    inst/extdata/output/lu_1500_2016/cftfrac.bin
-    inst/extdata/output/lu_1500_2016/discharge.bin
-    inst/extdata/output/lu_1500_2016/firec.bin
-    inst/extdata/output/lu_1500_2016/flux_estabn_mg.bin
-    inst/extdata/output/lu_1500_2016/fpc.bin
-    inst/extdata/output/lu_1500_2016/gpp.bin
-    inst/extdata/output/lu_1500_2016/grid.bin
-    inst/extdata/output/lu_1500_2016/harvestn.bin
-    inst/extdata/output/lu_1500_2016/irrig.bin
-    inst/extdata/output/lu_1500_2016/leaching.bin
-    inst/extdata/output/lu_1500_2016/napplied_mg.bin
-    inst/extdata/output/lu_1500_2016/ndepo_agr.bin
-    inst/extdata/output/lu_1500_2016/ndepo_mg.bin
-    inst/extdata/output/lu_1500_2016/ndepos.bin
-    inst/extdata/output/lu_1500_2016/nfert_agr.bin
-    inst/extdata/output/lu_1500_2016/nmanure_agr.bin
-    inst/extdata/output/lu_1500_2016/npp.bin
-    inst/extdata/output/lu_1500_2016/pet.bin
-    inst/extdata/output/lu_1500_2016/pft_harvest.pft.bin
-    inst/extdata/output/lu_1500_2016/pft_harvestn.pft.bin
-    inst/extdata/output/lu_1500_2016/pft_lai.bin
-    inst/extdata/output/lu_1500_2016/pft_npp.bin
-    inst/extdata/output/lu_1500_2016/pft_rharvest.pft.bin
-    inst/extdata/output/lu_1500_2016/pft_rharvestn.pft.bin
-    inst/extdata/output/lu_1500_2016/prec.bin
-    inst/extdata/output/lu_1500_2016/rootmoist.bin
-    inst/extdata/output/lu_1500_2016/runoff.bin
-    inst/extdata/output/lu_1500_2016/terr_area.bin
-    inst/extdata/output/lu_1500_2016/timber_harvestc.bin
-    inst/extdata/output/lu_1500_2016/vegc.bin
-    inst/extdata/output/pnv_1500_2016/bnf_mg.bin
-    inst/extdata/output/pnv_1500_2016/cftfrac.bin
-    inst/extdata/output/pnv_1500_2016/discharge.bin
-    inst/extdata/output/pnv_1500_2016/firec.bin
-    inst/extdata/output/pnv_1500_2016/flux_estabn_mg.bin
-    inst/extdata/output/pnv_1500_2016/fpc.bin
-    inst/extdata/output/pnv_1500_2016/grid.bin
-    inst/extdata/output/pnv_1500_2016/harvestn.bin
-    inst/extdata/output/pnv_1500_2016/irrig.bin
-    inst/extdata/output/pnv_1500_2016/leaching.bin
-    inst/extdata/output/pnv_1500_2016/napplied_mg.bin
-    inst/extdata/output/pnv_1500_2016/ndepo_agr.bin
-    inst/extdata/output/pnv_1500_2016/ndepo_mg.bin
-    inst/extdata/output/pnv_1500_2016/ndepos.bin
-    inst/extdata/output/pnv_1500_2016/nfert_agr.bin
-    inst/extdata/output/pnv_1500_2016/nmanure_agr.bin
-    inst/extdata/output/pnv_1500_2016/npp.bin
-    inst/extdata/output/pnv_1500_2016/pet.bin
-    inst/extdata/output/pnv_1500_2016/pft_harvest.pft.bin
-    inst/extdata/output/pnv_1500_2016/pft_harvestn.pft.bin
-    inst/extdata/output/pnv_1500_2016/pft_lai.bin
-    inst/extdata/output/pnv_1500_2016/pft_npp.bin
-    inst/extdata/output/pnv_1500_2016/pft_rharvest.pft.bin
-    inst/extdata/output/pnv_1500_2016/pft_rharvestn.pft.bin
-    inst/extdata/output/pnv_1500_2016/prec.bin
-    inst/extdata/output/pnv_1500_2016/rootmoist.bin
-    inst/extdata/output/pnv_1500_2016/runoff.bin
-    inst/extdata/output/pnv_1500_2016/terr_area.bin
-    inst/extdata/output/pnv_1500_2016/timber_harvestc.bin
-    inst/extdata/output/pnv_1500_2016/vegc.bin
-    inst/extdata/input/drainagestn.bin
-    inst/extdata/input/drainagestn_sub.bin
-    inst/extdata/input/elevation.bin
-    inst/extdata/input/pr_gswp3-w5e5_obsclim_1901-2019.clm
-    inst/extdata/input/tas_gswp3-w5e5_1901-2016.clm
 Config/testthat/edition: 3
 Date: 2024-06-21
